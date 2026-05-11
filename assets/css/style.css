@@ -142,8 +142,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 40, 85, 0.6), rgba(0, 40, 85, 0.6)), 
-                url('images/CCMulti.png') center/cover;
+    background:  url('images/CCMulti.png') center/cover;
     display: flex;
     align-items: center;
     color: var(--white);
