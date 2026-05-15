@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog | Kamila Chemical Industries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/Products.css">
+</head>
+<body>
+
+   <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-logo">KAMILA CHEMICAL INDUSTRIES</a>
+        
+        <!-- Toggle for Mobile -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html" class="nav-item">Home</a></li>
+            <li><a href="Products.html" class="nav-item">Products</a></li>
+            <li><a href="#" class="nav-item">About</a></li>
+            <li><a href="Contacts.html" class="nav-item contact-btn">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <section class="catalog-section">
+        <div class="container">
+            <div class="header-content">
+                <h1>Our Product Range</h1>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="productSearch" placeholder="Search 30+ products...">
+                </div>
+            </div>
+
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="laundry">Laundry</button>
+                <button class="filter-btn" data-filter="home">Home Care</button>
+                <button class="filter-btn" data-filter="skin">Skin Care</button>
+                <button class="filter-btn" data-filter="dish">Dish Wash</button>
+            </div>
+
+            <div class="product-grid" id="product-grid">
+                </div>
+        </div>
+    </section>
+
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image-side"><img id="modalImg" src="" alt=""></div>
+                <div class="modal-info-side">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalCategory" class="badge"></p>
+                    <div class="modal-specs">
+                        <div class="spec-item"><strong>Price:</strong> <span id="modalPrice"></span></div>
+                        <div class="spec-item"><strong>Colors:</strong> <span id="modalColor"></span></div>
+                        <div class="spec-item"><strong>Weights:</strong> <span id="modalWeight"></span></div>
+                    </div>
+                    <!--<button type="button" class="whatsapp-btn">Enquire Now via WhatsApp</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="Products.js"></script>
+</body>
+</html>
