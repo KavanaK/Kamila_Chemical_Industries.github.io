@@ -31,7 +31,8 @@ const products = [
     { id: 30, name: "Galaxy Dish Wash Round Bar", cat: "dish", price: "₹60", color: "Green", weight: "500g", img: "Image/GDWRB_60.JPG" },
     { id: 31, name: "Galaxy Dish Wash Liquid", cat: "dish", price: "₹50", color: "Green", weight: "250ml", img: "Image/GDWL_50.png" },
     { id: 32, name: "Galaxy Dish Wash Liquid", cat: "dish", price: "₹100", color: "Green", weight: "500ml", img: "Image/GDWL_100.png" },
-
+    //HOME CARE  | Category: HOME CARE
+    { id: 33, name: "Guru Floor Cleaner", cat: "home", price: "₹250", color: "Green|Pink|White", weight: "100-125g",Flavour:"Jasmine| Rose| Sandal| Litchi| Nilagiri", img: "Image/GFC_250.JPG" }
 
     
 ];
