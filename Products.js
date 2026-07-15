@@ -79,6 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('modalPrice').innerText = p.price;
         document.getElementById('modalColor').innerText = p.color;
         document.getElementById('modalWeight').innerText = p.weight;
+        document.getElementById('modalFlavour').innerText = p.Flavour;
         document.getElementById('modalCategory').innerText = p.cat.toUpperCase();
         modal.style.display = "block";
     };
