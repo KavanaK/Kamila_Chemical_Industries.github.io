@@ -32,11 +32,11 @@ const products = [
     { id: 31, name: "Galaxy Dish Wash Liquid", cat: "dish", price: "₹50", color: "Green", weight: "250ml", Flavour:"NA", img: "Image/GDWL_50.png" },
     { id: 32, name: "Galaxy Dish Wash Liquid", cat: "dish", price: "₹100", color: "Green", weight: "500ml", Flavour:"NA", img: "Image/GDWL_100.png" },
     //HOME CARE  | Category: HOME CARE
-    { id: 33, name: "Guru Floor Cleaner", cat: "home", price: "₹250", color: "Green|Pink|White", weight: "100-125g",Flavour:"Jasmine| Rose| Sandal| Litchi| Nilagiri", img: "Image/GFC_250.JPG" }
+    { id: 33, name: "Guru Floor Cleaner", cat: "home", price: "₹250", color: "Green|Pink|White", weight: "100-125g",Flavour:"Jasmine| Rose| Sandal| Litchi| Nilagiri", img: "Image/GFC_250.JPG" },
+    //SKIN CARE  | Category: SKIN CARE
+    { id: 34, name: "Mai Snana Jar - 6pc Jar", cat: "skin", price: "₹170", color: "Yellow", weight: "450g - 6pc of 75g each",Flavour:"Gram Flour", img: "Image/MSJ6_170.png" }
 
-    
 ];
-
 
 
 document.addEventListener('DOMContentLoaded', () => {
