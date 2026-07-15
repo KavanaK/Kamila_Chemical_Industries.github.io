@@ -16,7 +16,7 @@ const products = [
     {id:12, name: "Guru Total Washing Powder", cat: "laundry", price: "₹80", color: "NA", weight: "1 Kg", Flavour:"NA", img: "Image/GTWP_80.JPG"},
     {id:13, name: "Guru Janatha Washing Powder", cat: "laundry", price: "₹350", color: "Blue|Pink", weight: "5+1=6 Kg", Flavour:"NA", img: "Image/GJWP_350.JPG"},
     //Detergent Washing Liquid | Category: Laundry
-    {id:14, name: "Guru Ultra Pouch", cat: "laundry", price: "₹99", color: "Blue|Pink", weight: "1Ltr",Flavour:"NA",  img: "Image/GUP_99.png"},
+    {id:14, name: "Guru Ultra Pouch", cat: "laundry", price: "₹99", color: "Blue | Green", weight: "1Ltr", Flavour:"NA",  img: "Image/GUP_99.png"},
     {id:15, name: "Cushi Clean Multipurpose Liquid", cat: "laundry", price: "₹70", color: "Green", weight: "500ml",Flavour:"NA",  img: "Image/CCML_70.png"},
     {id:16, name: "Cushi Clean Multipurpose Liquid", cat: "laundry", price: "₹110", color: "Green", weight: "1Ltr", Flavour:"NA", img: "Image/CCML_110.png"},
     {id:17, name: "Cushi Clean Multipurpose Liquid", cat: "laundry", price: "₹500", color: "Green|Extra Perfume", weight: "5Ltr", Flavour:"NA", img: "Image/CCML_500.png"},
@@ -31,9 +31,9 @@ const products = [
     { id: 30, name: "Galaxy Dish Wash Round Bar", cat: "dish", price: "₹60", color: "Green", weight: "500g", Flavour:"NA", img: "Image/GDWRB_60.JPG" },
     { id: 31, name: "Galaxy Dish Wash Liquid", cat: "dish", price: "₹50", color: "Green", weight: "250ml", Flavour:"NA", img: "Image/GDWL_50.png" },
     { id: 32, name: "Galaxy Dish Wash Liquid", cat: "dish", price: "₹100", color: "Green", weight: "500ml", Flavour:"NA", img: "Image/GDWL_100.png" },
-    //HOME CARE  | Category: HOME CARE
+    //FLOOR CLEANER  | Category: HOME CARE
     { id: 33, name: "Guru Floor Cleaner", cat: "home", price: "₹250", color: "Green|Pink|White", weight: "5Ltr",Flavour:"Jasmine| Rose| Sandal| Litchi| Nilagiri", img: "Image/GFC_250.JPG" },
-    //SKIN CARE  | Category: SKIN CARE
+    //BATHING SOAP  | Category: SKIN CARE
     { id: 34, name: "Mai Snana Jar - 6pc Jar", cat: "skin", price: "₹170", color: "Yellow", weight: "450g - 6pc of 75g each",Flavour:"Gram Flour", img: "Image/MSJ6_170.png" }
 
 ];
